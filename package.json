@@ -1,0 +1,18 @@
+{
+  "name": "drewbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "cron": "^1.8.2",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^14.3.2"
+  },
+  "scripts": {
+    "start": "forever start bot.js",
+    "stop": "forever stop 0"
+  },
+  "license": "ISC"
+}
